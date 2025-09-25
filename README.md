@@ -6,7 +6,8 @@ Este respositório contém meus estudos práticos de **Testes de API** utilizand
 <br>
 
 ## Estrutura do repositório
-- `requests` → Documentação de cada requisição (cURL, resposta e prints);
+- `requests` → Endpoints, cURL;
+- `test cases` → Documentação de casos de testes;
 - `screenshots` → Evidências;
 - `tools` → Coleções do Postman usadas nos testes.
 
