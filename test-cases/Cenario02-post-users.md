@@ -1,6 +1,6 @@
-# Test Case - POST / Users 👤
+# Cenário 02 | Casos de Teste - POST / Users 👤
 
-## TC01: Cadastrar usuário
+## CT01: Cadastrar usuário
 - Pré-condições: API do JSONPlaceholder disponível em `https://jsonplaceholder.typicode.com/`.
 - Passos: 
     1. Criar uma nova requisição no Postaman e selecionar o método POST.
