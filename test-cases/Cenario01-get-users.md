@@ -13,18 +13,18 @@
 - Dado: 
     - Deve ser exibida uma lista de usuários, com informações como id, name, ursername, address (street, suite, city, zipcode, geo (lat, lng)), phone, website e company (name, catchPhrase, bs).
     - O status da requisição deve ser "200 OK".
-- Resultado esperado: Lista de usuários com as informações desejadas sendo exibida com sucesso, juntamente com o status "200" da requisição.
+- Esperado: Lista de usuários com as informações desejadas sendo exibida com sucesso, juntamente com o status "200" da requisição.
 - Resultado obtido: OK
 - Status: Passou
 - Evidências: 
 
 <br> 
 
-<img src="screenshots/resultado_CT01_GET_user01.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN01/resultado_CT01_GET_user01.png" width="960" height="512"></p>
 
 <br>
 
-<img src="screenshots/resultado_CT01_GET_user10.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN01/resultado_CT01_GET_user10.png" width="960" height="512"></p>
 
 <br><br>
 
@@ -46,7 +46,7 @@
 
 <br>
 
-<img src="screenshots/resultado_CT02_GET_users_buscaPorNome.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN01/resultado_CT02_GET_users_buscaPorNome.png" width="960" height="512"></p>
 
 <br><br>
 
@@ -68,7 +68,7 @@
 
 <br>
 
-<img src="screenshots/resultado_CT03_GET_users_buscaPeloId.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN01/resultado_CT03_GET_users_buscaPeloId.png" width="960" height="512"></p>
 
 <br><br>
 
@@ -86,4 +86,4 @@
 
 <br>
 
-<img src="screenshots/resultado_CT04_GET_users_buscaPorIdInexiste_erro404.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN01/resultado_CT04_GET_users_buscaPorIdInexiste_erro404.png" width="960" height="512"></p>

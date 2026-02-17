@@ -1,5 +1,10 @@
 # Cenário 02 | Casos de Teste - POST / Users 👤
 
+## 🚨 Pré-condições antes de executar os CTS
+- Pré-condições: API do JSONPlaceholder disponível em `https://jsonplaceholder.typicode.com/`.
+
+<br>
+
 ## CT01: Cadastrar usuário
 - Pré-condições: API do JSONPlaceholder disponível em `https://jsonplaceholder.typicode.com/`.
 - Passos: 
@@ -13,14 +18,17 @@
         "name": "João Silva",
         "username": "joaosilva",
         "email": "joaosilva@exemplo.com"
-    }
+    }s
     ```
-- Resultado esperado:
+    6. Clicar em "Send".
+- Dado:
     - O status da requisição deve ser "201 Created".
     - O retorno da resposta deve conter os dados cadastrados nos campos name, username, email e id.
+- Esperado: Retorno da requisição sendo "201 Created"
 - Resultado obtido: OK
+- Status: 
 - Evidência: 
 
 <br>
 
-<img src="screenshots/result_post_users.png" width="960" height="512">
+<p style="text-align: center;"><img src="screenshots/CN02/resultado_CT01_POST_users_cadastrarUsuario.png" width="960" height="512"></p>
